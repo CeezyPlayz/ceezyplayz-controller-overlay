@@ -1,0 +1,60 @@
+
+/* === CeezyPlayz Custom Scuf Envision Pro CSS === */
+
+/* General Button Style */
+.button {
+    opacity: 0.35;
+    transition: all 0.15s ease-in-out;
+}
+
+/* Pressed Effect - Neon Red Glow */
+.button.pressed {
+    opacity: 1;
+    box-shadow: 0 0 12px 4px #ff1e1e;
+}
+
+/* === ABXY Buttons === */
+.a-button.pressed { box-shadow: 0 0 12px 4px #ff1e1e; }
+.b-button.pressed { box-shadow: 0 0 12px 4px #ff1e1e; }
+.x-button.pressed { box-shadow: 0 0 12px 4px #ff1e1e; }
+.y-button.pressed { box-shadow: 0 0 12px 4px #ff1e1e; }
+
+/* === Triggers & Bumpers === */
+.lt.pressed, .rt.pressed { box-shadow: 0 0 12px 4px #ff1e1e; }
+.lb.pressed, .rb.pressed { box-shadow: 0 0 12px 4px #ff1e1e; }
+
+/* === Joysticks === */
+.ls-button.pressed, .rs-button.pressed {
+    box-shadow: 0 0 12px 4px #ff1e1e;
+}
+
+/* === Back Paddles (Custom Mapped) === */
+.paddle-top-left.pressed,
+.paddle-bottom-left.pressed,
+.paddle-top-right.pressed,
+.paddle-bottom-right.pressed {
+    box-shadow: 0 0 12px 4px #ff1e1e;
+}
+
+/* === Side Paddles (Index/Palm) === */
+.side-left.pressed,
+.side-right.pressed {
+    box-shadow: 0 0 12px 4px #ff1e1e;
+}
+
+/* === G Keys (G1-G5) === */
+.g1-button.pressed,
+.g2-button.pressed,
+.g3-button.pressed,
+.g4-button.pressed,
+.g5-button.pressed {
+    box-shadow: 0 0 12px 4px #ff1e1e;
+}
+
+/* === D-Pad === */
+.up-button.pressed,
+.down-button.pressed,
+.left-button.pressed,
+.right-button.pressed {
+    box-shadow: 0 0 12px 4px #ff1e1e;
+}
